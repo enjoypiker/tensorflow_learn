@@ -1,0 +1,6 @@
+**学习网址：**https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/3_NeuralNetworks/bidirectional_rnn.ipynb
+***
+**BiRNN Overview**
+https://camo.githubusercontent.com/36c4c9262cdd738a00e3fb5c2a77b24259273881/68747470733a2f2f6169322d73322d7075626c69632e73332e616d617a6f6e6177732e636f6d2f666967757265732f323031362d31312d30382f313931646437646639636239316163323266353665643064666134613536353165383736376135312f312d466967757265322d312e706e67
+BRNN的原理是将正则RNN的神经元分成两个方向。一个用于正时方向（正向状态），另一个用于负时间方向（反向状态）．这两个状态的输出没有连接到相反状态的输入。通过这两个时间方向，可以使用来自当前时间帧的过去和将来作为输入信息。
+
